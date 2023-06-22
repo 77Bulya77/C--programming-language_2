@@ -1,4 +1,10 @@
-﻿int Prompt (string message)
+﻿// Задача 1: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа. Не использовать строки
+// 456 -> 5
+// 782 -> 8
+// 918 -> 1
+
+
+int Prompt (string message)
 {
 System.Console.WriteLine(message);
 string value = Console.ReadLine();
